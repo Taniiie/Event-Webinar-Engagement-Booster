@@ -37,6 +37,7 @@ python -m venv venv
 .\venv\Scripts\activate
 # Linux/Mac:
 source venv/bin/activate
+```
 
 
 
@@ -55,7 +56,6 @@ Markdown
 **EVENT_BOOSTER** is a comprehensive, open-source Streamlit application designed to transform how you manage and engage with your event and webinar attendees. From personalized pre-event communications to gamified post-event follow-ups, this tool automates and optimizes your entire attendee lifecycle.
 
 ---
-
 ## ✨ Core Features
 
 | Icon | Feature | Description |
@@ -98,7 +98,7 @@ Bash
 
 streamlit run app.py
 The application will automatically open in your browser at http://localhost:8501.
-
+```
 📁 Project Structure
 This project is structured to be modular and easy to navigate, with a focus on data separation and clear logic flow.
 
@@ -176,7 +176,7 @@ Bash
 
 streamlit run app.py
 The application will automatically open in your browser at http://localhost:8501.
-
+```
 📁 Project Structure
 This project is structured to be modular and easy to navigate, with a focus on data separation and clear logic flow.
 
