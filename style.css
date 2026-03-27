@@ -1,0 +1,103 @@
+/* 
+   Event & Webinar Engagement Booster - Professional SaaS Architecture (V4)
+   Aesthetic: Clean, Serious, Data-Centric, Enterprise
+*/
+
+:root {
+    --brand-primary: #4F46E5;
+    --brand-secondary: #0EA5E9;
+    --brand-dark: #0F172A;
+    --bg-surface: #F8FAFC;
+    --text-main: #1E293B;
+    --text-muted: #64748B;
+    --border-light: #E2E8F0;
+    --card-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Base Styles & Spacing Optimization */
+.stApp {
+    background-color: var(--bg-surface);
+}
+
+/* CRITICAL: Reduce excessive top space */
+.block-container {
+    padding-top: 0.5rem !important; /* Extremely tight for professional look */
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    max-width: 100% !important;
+}
+
+header[data-testid="stHeader"] {
+    display: none !important; /* Remove the Streamlit global header to save space */
+}
+
+/* Typography Refinement */
+h1, h2, h3 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.75rem !important;
+    color: var(--brand-dark) !important;
+    font-weight: 700 !important;
+}
+
+.main-header {
+    background: linear-gradient(90deg, var(--brand-primary), var(--brand-secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.2rem !important; /* Slightly smaller for SaaS feel */
+    font-weight: 800 !important;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Navigation Menu Aesthetics */
+.nav-container {
+    margin-bottom: 1rem !important;
+}
+
+/* Custom Component: .glass-card */
+.glass-card {
+    background: #FFFFFF;
+    border: 1px solid var(--border-light);
+    border-radius: 8px; /* Slightly tighter radius for Enterprise feel */
+    padding: 1.5rem;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 1.25rem;
+}
+
+/* Metric Widgets Styling */
+div[data-testid="stMetric"] {
+    background: #FFFFFF !important;
+    border: 1px solid var(--border-light) !important;
+    border-radius: 10px !important;
+    padding: 1rem !important;
+}
+
+/* Modern Button System (SaaS Grade) */
+.stButton > button {
+    border-radius: 6px !important;
+    font-weight: 500 !important;
+    padding: 0.5rem 1rem !important;
+    transition: all 0.2s ease !important;
+    text-transform: none !important; /* Professional feel */
+}
+
+.stButton > button:hover {
+    filter: brightness(0.95);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+}
+
+/* Role Badges (Subtle & Top-Right) */
+.role-badge {
+    position: absolute;
+    top: 0;
+    right: 3rem;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    z-index: 1000;
+}
+
+.role-organizer { background: #FEF2F2; color: #991B1B; border: 1px solid #FEE2E2; }
+.role-participant { background: #F0FDF4; color: #166534; border: 1px solid #DCFCE7; }
