@@ -2,6 +2,22 @@
 
 A professional-grade, AI-powered platform for maximizing event and webinar engagement. Built with **Streamlit**, this application provides organizers with powerful analytics tools and participants with an interactive, gamified experience.
 
+
+<img width="1360" height="633" alt="Screenshot 2026-03-27 185937" src="https://github.com/user-attachments/assets/97053690-a26a-4267-923d-75c1c7da2c5b" />
+
+<img width="1354" height="627" alt="Screenshot 2026-03-27 185948" src="https://github.com/user-attachments/assets/b026b949-c70f-446f-aca6-b0507be55c1f" />
+
+
+<img width="647" height="541" alt="Screenshot 2026-03-27 185957" src="https://github.com/user-attachments/assets/7ed3c1c2-9480-48e9-a4e4-7ee26cbc03c1" />
+
+<img width="1349" height="599" alt="Screenshot 2026-03-27 190015" src="https://github.com/user-attachments/assets/72d33b89-3285-4cc9-9da1-ffa9491a2d28" />
+
+
+<img width="1359" height="617" alt="Screenshot 2026-03-27 190030" src="https://github.com/user-attachments/assets/0facc876-8b38-466d-ad7e-7afeffdaae8f" />
+
+<img width="1000" height="333" alt="Screenshot 2026-03-27 190043" src="https://github.com/user-attachments/assets/1215e389-51cd-479c-aa63-1f68cc2c90fb" />
+
+
 ---
 
 ## Features
